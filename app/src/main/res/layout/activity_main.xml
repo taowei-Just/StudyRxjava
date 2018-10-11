@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tao.rxtest.MainActivity">
+    
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+       <Button
+           android:id="@+id/bt_create_operate"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:padding="10dp"
+           android:text="创建操作符"
+           />  
+       <Button
+           android:id="@+id/bt_convetor_operate"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:padding="10dp"
+           android:text="变换操作符"
+           /> 
+       
+       <Button
+           android:id="@+id/bt_assembly_operate"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:padding="10dp"
+           android:text="组合操作符"
+           /><Button
+           android:id="@+id/bt_function_operate"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:padding="10dp"
+           android:text="功能性操作符"
+           />
+       
+       </LinearLayout>
+   </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

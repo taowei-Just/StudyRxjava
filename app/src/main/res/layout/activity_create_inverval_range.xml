@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tao.rxtest.MainActivity">
+    
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+       <Button
+           android:id="@+id/inverval__range01"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:padding="10dp"
+           android:text="inverval__range01"
+           /> <Button
+           android:id="@+id/inverval_range02"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:padding="10dp"
+           android:text="inverval_range02"
+           />
+           <TextView
+               android:id="@+id/tv_log"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               />
+
+       </LinearLayout> 
+   </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

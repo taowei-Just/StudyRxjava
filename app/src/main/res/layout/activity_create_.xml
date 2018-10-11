@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tao.rxtest.MainActivity">
+    
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+           <Button
+               android:id="@+id/bt_create"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:text="create_Observable"
+               />   <Button
+               android:id="@+id/bt_create_Subscriber"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:text="create_Observable_Subscriber"
+               /> 
+           <Button
+               android:id="@+id/bt_create_disposable"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:text="disposable_Observable_Subscriber"
+               />
+           
+           
+           <TextView
+               android:id="@+id/tv_log"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" 
+               android:padding="10dp"
+               /> 
+       </LinearLayout>
+    
+       
+   </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
